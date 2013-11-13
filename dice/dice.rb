@@ -6,7 +6,7 @@
 class Dice
 
   def roll
-    (1...6).to_a.sample
+    (1..6).to_a.sample
   end
 
 end
