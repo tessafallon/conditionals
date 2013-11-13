@@ -6,7 +6,7 @@
 class Dice
 
   def roll
-    # code goes here
+    (1...6).to_a.sample
   end
 
 end
