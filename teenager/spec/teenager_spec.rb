@@ -1,4 +1,4 @@
-require './teenager'
+require_relative '../teenager'
 
 describe "#is_a_teenager?" do
   it "returns false if the person is younger than 13" do
